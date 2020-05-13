@@ -5,7 +5,7 @@ var attemps = 0
 function validate(){
     var t = parseInt(document.getElementById("textinput").value, 10)
     if (t == correct){
-      alert("Correct number in "+attemps+"attemps!")
+      alert("Correct number in "+attemps+" attemps!")
       return true
     } else if (t < correct){
       alert("Try higher")
